@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bf274fe1.css",
+    "main.js": "/Portfolio/static/js/main.94b0c5c2.js",
+    "static/media/webdimage.png": "/Portfolio/static/media/webdimage.44bfec364917ba5c81d6.png",
+    "static/media/Resume.png": "/Portfolio/static/media/Resume.14505783d5553d166fe1.png",
+    "static/media/myimage.png": "/Portfolio/static/media/myimage.b2be3e83b13227ded899.png",
+    "static/media/Hire Me.png": "/Portfolio/static/media/Hire Me.b881d98d0037093c2447.png",
+    "static/media/javadevelpo.png": "/Portfolio/static/media/javadevelpo.43e7b3d587deec164b35.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.d399746da161ef6ab813.png",
+    "static/media/work2.png": "/Portfolio/static/media/work2.a690f5f7736d521dfc5e.png",
+    "static/media/file.png": "/Portfolio/static/media/file.98fe645cfb889f8174c6.png",
+    "static/media/webdevelop.png": "/Portfolio/static/media/webdevelop.92e47b340881d522b390.png",
+    "static/media/datastructure.png": "/Portfolio/static/media/datastructure.8a56a46c72cd5065e588.png",
+    "static/media/work1.png": "/Portfolio/static/media/work1.099015001a9ecec58e9a.png",
+    "static/media/phone.png": "/Portfolio/static/media/phone.da5ba8f8663b6946b832.png",
+    "index.html": "/Portfolio/index.html",
+    "main.bf274fe1.css.map": "/Portfolio/static/css/main.bf274fe1.css.map",
+    "main.94b0c5c2.js.map": "/Portfolio/static/js/main.94b0c5c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf274fe1.css",
+    "static/js/main.94b0c5c2.js"
+  ]
+}
