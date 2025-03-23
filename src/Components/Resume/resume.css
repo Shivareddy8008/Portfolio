@@ -1,0 +1,61 @@
+.resume{
+    height: 100vh;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    
+        padding-top: 50px; /* adjust the value as needed */
+      
+}
+.certi{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.certi-desc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 80rem;
+}
+.resume-div{
+ text-align: center;
+ height: 3rem;
+ width: 10rem;
+ color: black;
+ background-color: white;
+ border-radius: 10px;
+ padding: 3px;
+ margin: 3rem;
+ border: none;
+ object-fit: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ &:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition: all ease-in-out 0.5s;
+
+ }
+
+}
+.resume-download{
+    text-decoration: none;
+    color: black;
+
+}
+.download{
+    opacity: 0.5;
+    margin: 10px;
+
+}
+.dwn-img{
+    height: 1.5rem;
+    width: auto;
+    margin: 3px;
+    padding: auto;
+}

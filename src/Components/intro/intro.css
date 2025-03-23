@@ -1,0 +1,98 @@
+.intro{
+    height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 85rem;
+   
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    
+   
+     height: 100vh;      
+   
+
+}
+.introcontent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.introbtn{
+    height: 3rem;
+    width: 10rem;
+    object-fit: cover;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 400;
+  
+    opacity: 0.6;
+}
+.introbtn:hover{
+    opacity: 1;
+}
+.hireimg{
+    
+    object-fit: cover;
+    height: 2rem;
+    width: 3rem;
+    margin:0 3px;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+.name{
+    color: yellow;
+}
+.intropara{
+    font-size: medium;
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+    .bg {
+        
+       
+        right: -10vw;
+    }
+    .introcontent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg {
+      
+     
+        right: -10vw;
+    }
+    .introcontent{
+        font-size: 10vw;
+    }
+    
+}
+   

@@ -1,0 +1,97 @@
+.contact{
+    height: 60vh;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    
+    text-align: center;
+}
+.inputdiv{
+    height: 60vh;
+    width: 80vw;
+    background-color: rgb(50,50,50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+
+}
+.input-title{
+    margin: 1rem 0;
+    font-size: 3rem;
+    
+}
+.input-desc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 60rem;
+}
+#namebox{
+    height: 2rem;
+
+    max-width: 20rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px ;
+    padding: 10px;
+
+    &:focus{
+        border-color: burlywood;
+        transform: scale(1.2);
+    }
+}
+.email{
+    height: 2rem;
+    
+    max-width: 20rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px ;
+    padding: 10px;
+
+    &:focus{
+        border-color: burlywood;
+        transform: scale(1.2);
+    }
+
+}
+.contact-desc{
+    margin: 20px;
+
+}
+.textarea {
+    background-color: white;
+    width: 50vw;
+    max-width: 30rem; 
+    height: 150px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+    resize: vertical; 
+  }
+.submitbtn{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 5rem;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 10px;
+    opacity: 0.6;
+    border: none;
+    &:hover{
+        cursor: pointer;
+         opacity: 1;
+         transform: scale(1.2);
+         transition: all ease-in-out 2ms;
+
+    }
+
+}

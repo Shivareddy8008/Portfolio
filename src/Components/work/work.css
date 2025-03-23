@@ -1,0 +1,69 @@
+#works{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+    text-align: center;
+    padding: auto;
+    
+    
+      
+}
+.workstitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+.workdesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 80rem;
+}
+
+.worksimgs{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ max-width: 80rem;
+
+
+
+}
+.workimg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+}
+.disclai{
+    opacity: 0.5;
+    margin:20px;
+}
+.todolist-div{
+    &:hover{
+        transform: scale(105%);
+        transition: all ease-in-out 0.5s;
+     }
+}
+.port{
+    &:hover{
+        transform: scale(105%);
+        transition: all ease-in-out 0.5s;
+     }
+}
+@media screen and (max-width:550px){
+    .workimg{
+        height: 48vh;
+        width: 80vw;
+    }
+    .workdesc{
+        font-size: 0.7rem;
+    }
+
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: transparent;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.navbar{
+    position: sticky;
+    top:0;
+    color:white;
+    height: 5rem;
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 auto;
+   padding :10px 50px;
+    padding:1rem;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    background-color: rgb(30, 30, 30);
+
+}
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    margin-left: 50px;
+    border-radius: 50%;
+
+}
+.desktopmenubtn{
+    height: 3rem;
+    width: 10rem;
+    margin-right: 50px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+   background-color: white;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   
+}
+.desktopmenubtn:hover{
+    transform: scale(1.1);
+}
+.desktopmenubtnimg{
+    height: 1rem;
+    width: 1rem;
+    object-fit: cover;
+    margin: 1rem;
+    
+}
+.desktop-listitem{
+  margin: 1rem;
+  cursor: pointer;
+}
+.desktop-listitem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(40,40,40);
+    border-radius: 1rem;
+
+}
+.listitem{
+    color:white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+.mobmenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+
+}
+@media screen and (max-width:720px){
+    .mobmenu{
+        display: flex;
+    }
+    .desktopmenu{
+        display: none;
+    }
+    .desktopmenubtn{
+        display: none;
+    }
+}
